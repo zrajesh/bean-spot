@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../../styles/globals.css";
 import { IBM_Plex_Sans } from "next/font/google";
 
 const ibmPlexSens = IBM_Plex_Sans({
@@ -7,7 +7,7 @@ const ibmPlexSens = IBM_Plex_Sans({
 });
 
 export const metadata = {
-  title: 'BeanSpot - Find the best Coffee store near you',
+  title: 'BeanSpot - Coffee store name',
   description: 'BeanSpot - Coffee store finder near you',
 }
 

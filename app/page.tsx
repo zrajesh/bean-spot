@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Banner from "./components/Banner";
+import Card from "./components/card";
 
 
 async function handleViewStoreBtnClick () {
@@ -24,6 +25,11 @@ export default async function Home() {
             width={700} height={400} 
           />
         </div>
+        <Card
+         name="Dark horse coffe" 
+         imageUrl="/static/heroImage.png" 
+         href="/coffee-store/darkhorse-coffee" 
+        />
       </main>
     </div>
   )
